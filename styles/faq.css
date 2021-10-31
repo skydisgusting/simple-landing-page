@@ -1,0 +1,112 @@
+body {
+	font-family: Arial, sans-serif;
+	color: black;
+	padding: 0;
+	margin: 0;
+	color: #222222;
+}
+
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+header {
+	background: linear-gradient(to bottom right, blue, pink);;
+	height: 100vh;	
+}
+
+.container {
+	width: 930px;
+	border: 10px;
+	margin: 0 auto;
+}
+
+.logo {
+ 	margin-top: 25px;
+ 	float: left;
+}
+
+nav {
+	float: right;
+	margin-top: 45px;
+}
+
+.menu {
+	scroll-behavior: smooth;
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li a {
+	scroll-behavior: smooth;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.menu li {
+	float: right;
+	display: block;
+	margin-right: 80px;
+	transition: 0.72s;
+}
+.menu li:hover {
+	opacity: 0.65;
+}
+
+.titles__first {
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 160px;
+}
+
+.titles h1 {
+	font-size: 75px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 15px;
+}
+
+#faq {
+	padding-bottom: 20px;
+}
+
+.questions li {
+	float: middle;
+	display: block;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+.questions li h1 {
+	color: #000000;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: left;
+	margin: 30px;
+}
+
+.questions li p {
+	margin-left: 50px;
+	color: #777777;
+	font-size: 14px;
+	line-height: 1.55em;
+}
+
+#copyright p{
+ color: #777777;
+ text-align: center;
+ margin: 25px 0;
+}
